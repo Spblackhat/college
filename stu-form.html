@@ -6,60 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>student form</title>
     <style>
-        body {
+
+        body{
+            padding: 5px;
             margin: 0;
-            padding: 0;
-
+            
         }
+      h4{
+        text-align: right;
+      } 
+      h1,h2{
+        text-align: center;
 
-        .name {
-            border: 0px black dotted;
-            border-bottom-width: 2px;
-        }
+      }
+      /* .ss{
+        display: block;
+        text-align: center;
+      }
+      
+      */
 
-        h1 {
-            /* display: flex; */
-            /* align-items: center; */
-            text-align: center;
+      .navbar{
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .rsn{
+        border: white;
+        border-bottom: dotted black;
+        
+      }
 
-        }
+      .sub{
+        display: flex;
+        
+      }
 
-        .rsn {
-            color: red;
 
-        }
-
-        .div1 {
-            /* background-color: blue; */
-        }
+      
 
     </style>
 </head>
 
 <body>
+    <form>
     <h4>admission form no.</h4>
     <div class="div1">
-        <h1>Seth G.L Bihani S.D. (P.G) Collage></h1>
+        <h1>Seth G.L Bihani S.D. (P.G) Collage</h1>
     </div>
 
     <h2>Sri Ganganagar - 335001 (Raj.) </h2>
-    <span style="border: 2px solid black;">to Be filled by student</span>
-    <span><b>Session - 20... 20...</b></span><br><br><b><label>Registration Sr. No.</label><input type="text"
-            class="Rsn"> </b><span><b><label>Date</label><input type="date"></b></span>
-    <span> <label><b>Class & Medium of Study</b></label><input type="text"
-            class="rsn"></span><span><label><b>Faclty</b></label></span><input type="text" class="rsn"><br>
-    <b><label for=""> 1. Name of the student in captial letters</label><input type="text" class="rsn"
-            placeholder="name">
-        <br><span><label><b>2. Name of Father / Husband </b></label><input type="text" class="rsn"
-                placeholder="Name"><label><b>occupation</b></label><input type="text" class="rsn"></span>
-        <br><span><label><b>3. Name of Mother</b></label><input type="text" class="rsn"
-                placeholder="Name"><label><b>Occupation</b></label><input type="text" class=></span>
+    <span style="border: 2px solid black;">
+        to Be filled by student
+</span>
+    <span class="ss"><b>Session - 20... 20...</b></span>
+    <br><br><b>
+        <nav class="navbar">
+            <span><label class="aa">Registration Sr. No.</label></span>
+            <br><input type="text"class="Rsn1"><br> </b>
+            <span><b><label class="aa">Date</label><br><input type="date" class="Rsn1"><br></b></span>
+                <span> <label class="aa"><b>Class & Medium of Study</b></label><br><input type="text" class="Rsn1"><br></span>
+                <span><label class="aa"><b>faculty</b></label><br><input type="text" class="Rsn1"><br></span>
+
+           
+                       
+    </nav>
+    <br>
+    <b><label for=""> 1. Name of the student in captial letters</label><input type="text" class="rsn" placeholder="name">
+        <br><span><label><b>2. Name of Father / Husband </b></label><input type="text" class="rsn"placeholder="Name">
+                <label><b>occupation</b></label><input type="text" class="rsn"></span>
+        <br><span><label><b>3. Name of Mother</b></label><input type="text" class="rsn"placeholder="Name">
+            <label><b>Occupation</b></label><input type="text" class=></span>
         <br><label><b>4. Date of Birth</b></label><input type="date" class="rsn">
-        <br><label><b>5. Gender</b></label><input type="text" class="rsn"
-            placeholder="Male/female/trangender"><label><b>Nationality</b></label><input type="text" class="rsn">
+        <br><label><b>5. Gender</b></label><input type="text" class="rsn"placeholder="Male/female/trangender">
+        <label><b>Nationality</b></label><input type="text" class="rsn">
         <label>Religion</label><input type="text" class="rsn">
-        <br><label><b>6. Residence Address</b></label><input
-            type="text"><label><b>pincode</b></label><b>Pincode</b><input type="text" class="rsn">
+        <br><label><b>6. Residence Address</b></label><inputtype="text"><label><b>pincode</b></label><b>Pincode</b><input type="text" class="rsn">
         <label><b>Email I.d</b></label><input type="text"><label><b>Mobile NO.(s)</b></label><input type="number"
             class><label><b>Mobile No.(f)</b></label>
         <input type="number">
@@ -69,33 +91,31 @@
 <br><label><b>9. If you are in service , then NOC of employer should be attached</b></label><input type="text" class="rsn">
 <br><label><b>10. Tick () the activites : NCC/NSS/GAMES & SPORTS / Cultural activites </b></label><input type="text" class="rsn" placeholder="NCC/NSS/GAMES & SPORTS/ CULTRAL activites">   
 <br><label><b>11. if you are appearing for other exmaination, mention it</b></label><input type="text" class="rsn"> 
-<br><label><b>12. Sub/Papers in which addmission is to be sought</b></label>  
+<br><label><b>12. Sub/Papers in which addmission is to be sought</b></label>  <br>
 
 <diV class="sub">
     <span>Compulsery subject</span>
-    <ol>
+ <div>   <ol>
         <li>............</li>
         <li>............</li>
         <li>............</li>
         <li>............</li>
-        <li>............</li>
-    </ol>
-<span>Opitional subjects</span>
-<ol>
-    <li>............</li>
-    <li>............</li>
-    <li>............</li>
-    <li>............</li>
-    <li>............</li>
-</ol>
-
-
+        <li>............</li> </div>
+    </ol><SPAN>OPTIONAL SUBJECT</SPAN>
+    <SELECT style="margin-left: 50px;">
+        <OPTION VALUE>SELECT SUBJECT</OPTION>
+        <OPTION VALUE=>jAVA</OPTION>
+        <OPTION VALUE=>C++</OPTION>
+        <OPTION VALUE=>PYTHON</OPTION>
+        <OPTION VALUE=>Html</OPTION>
+        </SELECT>
 </diV>
 <br>
 <span><b>
     13. Details of the last qualifiying examination
 </b></span>
-<tabel>
+<br>
+<table border="2px">
     <tr>
         <th>Name of Exam </th>
         <th>Passing year</th>
@@ -108,17 +128,20 @@
         <th>Any special</th>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td rowspan="2"> </td>
+        <td rowspan="2"> </td>
+        <td rowspan="2"> </td>
+        <td rowspan="2"> </td>
+        <td rowspan="2"> </td>
+        <td rowspan="2"> </td>
+        <td rowspan="2"> </td>
+        <td rowspan="2"> </td>
+        <td rowspan="2"> </td>
+        
+      
     </tr>
-</tabel>
+</table>
+</form>
 </body>
 
 </html>
